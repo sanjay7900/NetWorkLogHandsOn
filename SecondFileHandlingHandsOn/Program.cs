@@ -11,7 +11,16 @@ namespace SecondFileHandlingHandsOn
         static void Main(string[] args)
         {
             FileHandlingHandOn fileHandlingHandOnObj=new FileHandlingHandOn();
-            fileHandlingHandOnObj.ReadNetworkLogFile();
+            //fileHandlingHandOnObj.ReadNetworkLogFile();
+            fileHandlingHandOnObj.success();
+            Console.WriteLine();
+            fileHandlingHandOnObj.Failed();
+            Console.WriteLine();
+            fileHandlingHandOnObj.Missed();
+            Console.WriteLine();
+            fileHandlingHandOnObj.Dailed();
+
+
             Console.ReadKey();
         }
     }
