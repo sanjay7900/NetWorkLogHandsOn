@@ -19,6 +19,9 @@ namespace SecondFileHandlingHandsOn
             fileHandlingHandOnObj.Missed();
             Console.WriteLine();
             fileHandlingHandOnObj.Dailed();
+
+
+
             Console.WriteLine(" using only one function pass argument only");
             fileHandlingHandOnObj.OneToAll("Success");
             Console.WriteLine();
@@ -28,6 +31,7 @@ namespace SecondFileHandlingHandsOn
             Console.WriteLine();
             fileHandlingHandOnObj.OneToAll("Dailled");
             Console.WriteLine();
+           
 
 
 
